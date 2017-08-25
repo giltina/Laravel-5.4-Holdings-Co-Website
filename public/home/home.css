@@ -1,0 +1,332 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #000;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.logo{
+    box-shadow: 6px 6px 6px #000;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c {
+    padding: 50px 0;
+    background-color:#006B37;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.about-grids{
+	padding:1.5em 0 0 0;
+}
+.about-grid{
+	margin:0;
+	padding:0;
+}
+.about-grid1{
+	background:#FF6700;
+}
+.about-grid-pic img{
+	width:100%;
+}
+.about-grid-info{
+	padding: 2em 1em;
+}
+.about-grid-info h4{
+	font-size: 1.3em;
+	font-weight: 400;
+	border-bottom: 1px solid #FFF;
+	padding: 0 0 0.5em 0;
+}
+.about-grid-info h4 a{
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.about-grid-info p{
+	color:#FFFFFF;
+	
+}
+.about-grid2{
+	background:#CF0015;
+}
+.about-grid3{
+	background:#3C8041;
+}
+.about-grid4{
+	background:#652D90;
+}
+
+.foot {
+padding: 100px 0;
+ background: url(images/footer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.foot a {
+
+    color:white;
+}
+
+.foot a:hover {
+
+    color:white !important;
+}
+/*Top nav left*/
+.top-nav {
+    color: #333;
+    background-color:#00703C;
+	
+}
+
+.top-nav p {
+    margin-top:10px;
+    
+	
+}
+/*Top left Menu*/
+.top-left {
+	float: left;
+}
+
+.top-left ul >li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.top-left a {
+	font-size: 16px;
+	color: #333;
+}
+
+.top-left a:hover {
+	color: #006B37;
+}
+
+/*Top Right Menu*/
+.top-right {
+	margin-top:5px;
+}
+
+
+
+.top-left p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color:white;
+}
+
+.top-right p > span {
+	margin-left: 5px;
+	font-weight: 400;
+}
+
+/*Nagivation*/
+#main-nav {
+	padding: 1px 3px 5px;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+ -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+ box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+/*Affix*/
+#main-nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    color: #fff;
+    z-index:10;
+	-moz-box-shadow: 0 1px 2px #ebebeb;
+	-webkit-box-shadow: 0 1px 2px #ebebeb;
+	box-shadow: 0 5px 5px rgba(0,0,0,.15);
+    transition: all 0.3s;
+}
+
+.navbar {
+	margin:0;
+}
+
+#main-nav .navbar-header a {
+	
+	color: #fff;
+}
+/*Toggle Menu*/
+#main-nav .navbar-toggle {
+	background-color: #01b1d7;
+}
+
+#main-nav .navbar-toggle span {
+	background-color: #fff;
+}
+
+/*Main Menu*/
+#main-nav .navbar-right {
+	margin-top: 40px;
+}
+#main-nav .navbar-right li > a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #555;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-transform: uppercase;
+}
+
+#main-nav .navbar-right li > a:focus {
+	color: #006B37;
+    background: none;
+    outline: none;
+}
+
+#main-nav .navbar-nav>li>a:hover,
+#main-nav .navbar-nav>li.active>a {
+	color: #006B37;
+    background: none;
+text-decoration:underline;
+
+}
+
+.navbar-inverse {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-default.outline {
+	border: 2px solid white;
+	color: white;
+}
+
+.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
+	color: black;
+	border-color: #33a6cc;
+}
+.btn-default.outline:active, .btn-default.outline.active {
+	border-color: white;
+	color: white;
+	box-shadow: none;
+}
+
+/*Newsletter*/
+.home-newsletter {
+padding: 30px 0;
+padding-bottom: 60px;
+background: white;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: #333333;
+text-transform: uppercase;
+margin-bottom: 20px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: #333333;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #243c4f;
+color: #fff;
+}
+.pageheader {
+padding: 20px 0;
+ background-color:#00703C; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*homepage*/
+.home-intro {
+padding: 10px 0;
+padding-bottom: 10px;
+background: white;
+}
+
+.demo{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#equalheight {
+    overflow: hidden; 
+}
